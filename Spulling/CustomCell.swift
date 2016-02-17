@@ -10,7 +10,8 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
-   // @IBOutlet weak var profilImage: UIImageView!
+   
+    @IBOutlet weak var profilImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     
@@ -30,7 +31,7 @@ class CustomCell: UITableViewCell {
     
     
     func setCell(name: String, description:String, image:String){
-        
+        print("setCell1")
         
         self.nameLabel.text = name;
         self.descriptionLabel.text = description;
@@ -63,5 +64,22 @@ class CustomCell: UITableViewCell {
       //  self.profilImage.image = UIImage(data: data!)
         
     }
+    
+    
+    
+    func setCellDump(name: String, description:String){
+        
+        
+        self.nameLabel.text = name;
+        self.descriptionLabel.text = description;
+        
+    
+        
+        
+        
+      
+        
+    }
+    
 
 }

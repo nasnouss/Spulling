@@ -37,13 +37,13 @@ print("im in the list section bitch bbbrraaaaaaaa")
         list.append(person1)
         list.append(person1)
          list.append(person1)
-        
-        dispatch_async(dispatch_get_main_queue(), {
-            
-            self.myTableView.delegate = self;
-            self.myTableView.dataSource = self;
-            
-        })
+//        
+//        dispatch_async(dispatch_get_main_queue(), {
+//            
+//            self.myTableView.delegate = self;
+//            self.myTableView.dataSource = self;
+//            
+//        })
 
         
         

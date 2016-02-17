@@ -108,6 +108,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-3V-41H">
                                 <rect key="frame" x="131" y="574" width="112" height="30"/>
                                 <state key="normal" title="importer son CV"/>
+                                <connections>
+                                    <segue destination="59g-We-y8L" kind="show" id="MCE-s5-E2B"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x6J-DK-h9u">
                                 <rect key="frame" x="20" y="185" width="335" height="30"/>
@@ -134,13 +137,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj2-Kc-ilX">
-                                <rect key="frame" x="271" y="602" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="59g-We-y8L" kind="show" identifier="goTo" id="bxW-UM-1je"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -189,6 +185,7 @@
                                 <connections>
                                     <outlet property="descriptionLabel" destination="lDg-hh-EEP" id="fnC-ym-osQ"/>
                                     <outlet property="nameLabel" destination="pa2-Xu-8nz" id="8eb-H1-ArG"/>
+                                    <outlet property="profilImage" destination="afw-da-kc4" id="pYV-MN-NyF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

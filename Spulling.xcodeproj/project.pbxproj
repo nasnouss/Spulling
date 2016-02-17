@@ -172,13 +172,13 @@
 		12DB20391C70CF3100FD8969 /* Spulling */ = {
 			isa = PBXGroup;
 			children = (
-				1213C3F91C750D9100D19A1A /* Main.storyboard */,
 				12466CE61C73932C0091B58C /* model */,
 				1275EF921C724D1000D31FB2 /* ConnetionViewController */,
 				124274101C70F91100A6EC0F /* InscriptionViewControllers */,
 				1242740B1C70E9C300A6EC0F /* ApplicationViewControllers */,
 				124274051C70E90A00A6EC0F /* SWRevealView */,
 				12DB203A1C70CF3100FD8969 /* AppDelegate.swift */,
+				1213C3F91C750D9100D19A1A /* Main.storyboard */,
 				12DB203C1C70CF3100FD8969 /* ViewController.swift */,
 				12DB20411C70CF3100FD8969 /* Assets.xcassets */,
 				12DB20431C70CF3100FD8969 /* LaunchScreen.storyboard */,
